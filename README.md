@@ -1,10 +1,11 @@
-# write-down
+# writedown
 > In active development - currently unstable
 
 ## development
-`git clone danm/writedown`
-`yarn`
+`git clone git@github.com:danm/writedown.git`  
+`cd writedown`  
+`yarn`  
 
 ## start sandbox
-`yarn start`
-
+`cd writedown/client`  
+`yarn start`  
