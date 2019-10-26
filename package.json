@@ -1,0 +1,26 @@
+{
+  "name": "writedown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-content": "node ./bin/compileContent && yarn run copy-images",
+    "copy-images": "cp -r content/images/ client/public/images/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "yarn run compile-content && cd client && yarn run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danm/write-down.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danm/write-down/issues"
+  },
+  "homepage": "https://github.com/danm/write-down#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

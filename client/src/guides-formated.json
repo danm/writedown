@@ -1,0 +1,287 @@
+{
+    "text": "## What is Telescope?\r\nTelescope is a tool that makes audience data available to all BBC News journalists in an intuitive language and interface. It's been built to help us make data-informed decisions about publishing and optimising content, increasing the reach and quality of our journalism.\r\n",
+    "title": "What is Telescope?",
+    "directories": [
+        {
+            "name": "1. Getting Started",
+            "title": "Getting Started",
+            "index": 0,
+            "files": [
+                {
+                    "name": "1. Why is Telescope useful?.md",
+                    "title": "Why is Telescope useful?",
+                    "index": 0,
+                    "contents": [
+                        {
+                            "data": "## Why is Telescope useful?\r\n\r\n\r\nWith Telescope, we can better understand how our readers are consuming our content.  \r\n\r\n\r\n \r\n\r\n\r\nBy building it, our aim is to have audience data easily available in one place—so that when you're wondering “how is my content doing?”, you can find that answer quickly. It’s designed to be intuitive and simple to use, with enough context around the data so that it’s easy to interpret and take action with. We’ve built it with user feedback at the centre, so it’s designed to benefit the very people who’ll use it.\r\n\r\n\r\n\r\n\r\n\r\nTelescope’s data combines traffic figures from ComScore and recirculation and engagement data from Chartbeat. It updates around every 15 minutes. \r\n\r\n\r\n\r\n\r\n\r\nWe’ll be updating this manual as new features and functionality are added. If you would like to know more, please contact telescope@bbc.co.uk. \r\n\r\n\r\n\r\n\r\n",
+                            "name": "Why is Telescope useful?",
+                            "id": "whyistelescopeuseful"
+                        },
+                        {
+                            "data": "## Which metrics are important?\r\n\r\n\r\nThere are several key metrics we care about - and the one to focus on depends on what it is you're trying to measure. \r\n\r\n\r\n\r\n\r\n\r\nIf you’re interested in reach, the metric you want to pay attention to is **page views**. This essentially tells you how many people your story reached - and indicates how well the story was promoted. _Read more [here.](https://telescope-beta.tools.bbc.co.uk/guides/data-on-specific-content/how-much-traffic-did-my-content-get)_\r\n\r\n\r\n\r\n\r\n\r\nIf you’re wondering whether people had a good experience on the page, focus on **engagement**. This tells you how long, on average, readers spent on an individual story. _Read more [here.](https://telescope-beta.tools.bbc.co.uk/guides/data-on-specific-content/how-long-did-people-spend-on-my-content)_\r\n\r\n\r\n\r\n\r\n\r\nDid people travel elsewhere on the site? If you’re interested in this, then look at **recirculation**. This tells us the average proportion of readers who click away to another story on the BBC News website. _Read more [here.](https://telescope-beta.tools.bbc.co.uk/guides/data-on-specific-content/what-about-recirculation)_\r\n\r\n\r\n\r\n\r\n\r\nIf you’re measuring how successful a **video** was, there are two metrics you can focus on: 3 second plays (i.e. a basic play) and 10 second plays (i.e. an engaged play). You can view these in the [Audience Engagement portal](http://audience-engagement.bbcnewslabs.co.uk/stats/most-watched) for now - but we hope to have video data in Telescope soon!\r\n\r\n\r\n",
+                            "name": "Which metrics are important?",
+                            "id": "whichmetricsareimportant"
+                        }
+                    ],
+                    "next": {
+                        "title": "What's on the homepage?",
+                        "dir": 0,
+                        "file": 1
+                    }
+                },
+                {
+                    "name": "2. What's on the homepage?.md",
+                    "title": "What's on the homepage?",
+                    "index": 1,
+                    "contents": [
+                        {
+                            "data": "## What’s on the homepage?\r\n\r\n\r\n \r\n\r\n\r\nThe homepage is arranged by a list of 'quick reports' - which are there to help you find the most useful information on story performance as easily as possible. The default quick report is a list of top stories published on BBC News within the last 48 hours, ordered by pageviews for the specific day you've selected. \r\n\r\n\r\n\r\n\r\n\r\n![Quick Reports](http://localhost:3000/images/Screen%20Shot%202018-12-20%20at%2017.24.51.png \"Telescope quick reports \")\r\n\r\n\r\n\r\n\r\n\r\nThe other reports are the Youth Report - note this only works for News. This shows the percentage of UK readers aged 18-34 that read the most popular stories on the website (not the app) on the dates selected, regardless of the date they were published. You can read more about this report and where we get demographic data from [on this page](https://telescope-beta.tools.bbc.co.uk/guides/getting-started/demographic-data).\r\n\r\n\r\n\r\n\r\n\r\nThe bottom stories report shows the least popular stories published on the dates selected; top search and top social list the stories that are earning the most clicks from search engines and social networks; and the bottom recirculation report will bring up the stories that have the lowest percentage of readers going on to read another story. \r\n\r\n\r\n\r\n\r\n\r\nIf you’d like to see traffic for a specific World Service site, you can select one from the **‘News’** drop-down menu at the top of the page:\r\n\r\n\r\n\r\n\r\n\r\n![Choosing a World Service site](http://localhost:3000/images/Screen%20Shot%202018-12-20%20at%2017.27.14.png \"Choosing a World Service site\")\r\n\r\n\r\n\r\n\r\n\r\nTo change the date you'd like to view stories for, click the 'Today' link. This will bring up a calendar from which you can choose from a list of dates, a specific day, or your own custom range of days:\r\n\r\n\r\n\r\n\r\n\r\n![Selecting a date or date range](http://localhost:3000/images/Screen%20Shot%202018-12-20%20at%2017.29.07.png \"Selecting a date or date range\")\r\n\r\n\r\n\r\n\r\n\r\nTo view stats for a specific story, just click through on the box the story appears in in the list of items you’ve searched for. Alternatively, you can search for it by putting the story’s CPS ID in the search box in the top right of the page:\r\n\r\n\r\n\r\n\r\n\r\n![Searching for a story by CPS ID](http://localhost:3000/images/Screen%20Shot%202017-08-25%20at%2009.53.58.png?token=AY5378beyQnFeWvq08bFtANN5hx7Cu1Dks5ZVOQCwA%3D%3D \"Telescope search bar\")\r\n\r\n\r\n \r\n\r\n\r\nIf you wish to run a more advanced query, select the 'Advanced' toggle on the right hand side of the page. This will bring up a variety of options, such as the ability to sort the list by traffic source (entry type, mobile or desktop, region), and story type (story page, MAP, live page):\r\n\r\n\r\n\r\n\r\n\r\n![Advanced filters](http://localhost:3000/images/Screen%20Shot%202018-12-20%20at%2017.32.54.png \"Advanced filters\")\r\n\r\n\r\n\r\n\r\n\r\n![Advanced filters](http://localhost:3000/images/Screen%20Shot%202018-12-20%20at%2017.33.02.png \"Advanced filters\")\r\n\r\n\r\n",
+                            "name": "What’s on the homepage?",
+                            "id": "whatsonthehomepage"
+                        }
+                    ],
+                    "next": {
+                        "title": "Demographic data",
+                        "dir": 0,
+                        "file": 2
+                    },
+                    "previous": {
+                        "title": "Why is Telescope useful?",
+                        "dir": 0,
+                        "file": 0
+                    }
+                },
+                {
+                    "name": "3. Demographic data.md",
+                    "title": "Demographic data",
+                    "index": 2,
+                    "contents": [
+                        {
+                            "data": "## Demographic data in Telescope\r\n\n\n\r\nWe now have demographic, story-level data for UK readers in Telescope, so you can see how your story is performing with UK youth audiences (18-34) and non-youth audiences (over 35), and male or female readers. Here we explain more about where the data comes from,  what it measures, and how it's useful.\r\n\n\n\r\n### Where do you get this data from?\nWe get data on the demographics of our UK website readers from a service called Hitwise. They take a 3m panel of UK internet users who have agreed to have their usage monitored anonymously, and match it against survey data from, for example, Kantar, Experian and Mosaic. They then extrapolate those figures to BBC News readership data. You can read more about their methodology [here](https://www.hitwise.com/gb/methodology/). \r\n\n\n\r\n### What does this data cover?\nThis data covers page views of the BBC News website from readers in the UK. While it includes views on mobile and desktop, it does not include any traffic from the BBC News app, only views on the responsive website on mobile. It also excludes page views from international readers. \r\n\n\n\r\nUnfortunately, this data is not available for BBC Sport, Newsround or World Service stories in Telescope - it is limited to BBC News stories only.  \r\n\n\n\r\nIt also does not cover any other metrics such as time spent on the page or recirculation - it only tracks page views from specific audience segments. \r\n\n\n\r\n### How often do you get this data?\nWe get demographic data delivered to us between midnight and 12pm for the previous day's stories. We aim to have this data visible in Telescope that day — so by 12pm latest on a Tuesday you will be able to view demographic data for a story you published on the Monday before. \r\n\n\n\r\n### What does this demographics chart data in Telescope show me?\nIt shows us, for each story published the previous day on BBC News, how many of its UK website readers as a percentage were from the following demographic groups:\r\n\n\n\r\n* Men\n* Women\n* Men 18-24\n* Women 18-24\n* Men 25-34\n* Women 25-34\n* Men 35-44\n* Women 35-44\n* Men 45-54\n* Women 45-54\n* Men 55+\n* Women 55+\r\n\n\n\r\nFor simplicity, we group these figures on a Telescope story page as youth (18-34) or non-youth (over 35) readers. For instance, this chart below shows that, for everyone who read this article in the UK on the website, 13.2% were women aged 18-34.\r\n\n\n\r\n![Demographic data for a story](http://localhost:3000/images/Screen%20Shot%202018-09-17%20at%2015.25.08.png \"Demographic data for a story\" )\r\n\n\n\r\n### What does the ‘Youth Report’ filter on the Telescope homepage show me?\nThis shows the percentage of UK website male and female readers aged 18-34 that read the most popular BBC News stories on the dates selected. So for instance, in the top story in this view below, 30% of its UK website readers over the last seven days were men and women aged 18-34:\r\n\n\n\r\n![Youth audience report](http://localhost:3000/images/Screen%20Shot%202018-09-17%20at%2016.29.31.png \"Youth audience report\" ) \r\n\n\n\r\nPlease note the most recent data you can view in this report is for yesterday’s stories, due to the time at which we receive the data from Hitwise, as mentioned above.\r\n\n\n\r\n\n### How do I know what good looks like?\nThe Audiences team have looked at the demographic data to BBC News articles and determined the following: \r\n\n\n\r\n![What good looks like](http://localhost:3000/images/image%20(13).png \"What good looks like\" ) \r\n\n\n\r\n\n### Why does this data matter? How can it help me? \nThe BBC typically struggles to reach \"underserved\" audiences, that is men and women under-35, and particularly those from lower socio-economic backgrounds. But it has a public service to reach everyone, and needs to address this decline in reaching these particular audiences. This is where data can help us.\r\n\n\n\r\nThis data lets us measure more accurately which of our specific stories are reaching those underserved readers, and which ones are not. In addition to helping us better track performance with those readers, it gives us more information to help us with our optimisation and future commissionining decisions - i.e. if we have noticed that giving a recurring topic/set of stories a particular treatment performed well with younger audiences, we might want to replicate that treatment on future stories in this topic in order to try and continue to reach those readers.\r\n\n\n\r\n### Who should I contact for more help?\nIf you want some help with interpreting the results or with your youth audience strategy, please email the Audience Engagement team: NewsAudienceEngagement@bbc.co.uk \r\n\n\n\r\n",
+                            "name": "Demographic data in Telescope",
+                            "id": "demographicdataintelescope"
+                        }
+                    ],
+                    "next": {
+                        "title": "How much traffic did my content get?",
+                        "dir": 1,
+                        "file": 0
+                    },
+                    "previous": {
+                        "title": "What's on the homepage?",
+                        "dir": 0,
+                        "file": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "2. Data on Specific Content",
+            "title": "Data on Specific Content",
+            "index": 1,
+            "files": [
+                {
+                    "name": "1. How much traffic did my content get?.md",
+                    "title": "How much traffic did my content get?",
+                    "index": 0,
+                    "contents": [
+                        {
+                            "data": "## How much traffic did my content get?\r\n\r\n\r\nWhen you open an individual story stats page, you'll see its total number of pageviews, the average time spent on the story, and average recirculation rate. You'll also see its published time, last updated time, word count, CPS ID, and a list of other assets included in the piece (e.g. the number of images, related links, and tags).\r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n![Lifetime stats for your article](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.04.08.png \"Your article's stats\")\r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\nYou can also expand the **'embedded content'** tab to see which videos, audio files and images the story contains.  And if you think the numbers on the page are incorrect, you can click the **'report this page'** button and we'll investigate it. \r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\nBeneath these tabs, the first chart you’ll see once you click through on an article will be the **'page views'** chart. This shows you the total pageviews to the story over time.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n![Your story's page views over time](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.06.57.png?token=AY537_t1cGB_fpx1Ib1nzMWqUN4N7KZhks5Zgd39wA%3D%3D \"Pageviews over time\")\r\n\r\n\r\n\r\n\r\n\r\nYou can also see at what points changes were made to your story (e.g. if the main image was replaced for another one, or the headline was tweaked). These will be shown by default with the **‘show events’** slider in the top right corner; this will bring up vertical plots on the chart that correspond with the time changes were made, and by hovering over them you can see exactly what these changes were.\r\n\r\n\r\n \r\n\r\n\r\n \r\n\r\n\r\n![Seeing when changes were made to your story over time](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.09.01.png?token=AY5377k1kpmvTFY2NR8m46raVwJC3Br_ks5ZVSM2wA%3D%3D \"See when changes were made to your story\")\r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\nThese events will be visible within every tab on these charts. If you wish to hide these, just tap the slider to select **\"hide events\"**. \r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n\r\n\r\n\r\n**_What does this mean?_**\r\n\r\n\r\n \r\n\r\n\r\nEvents are helpful for seeing if traffic was impacted by making those changes to your story. Did the headline change, adding of tags, or change of picture correlate with a growth in pageviews? Or the opposite? Why do you think that was? \r\n\r\n\r\n \r\n\r\n\r\n**_Tips_** \r\n\r\n\r\n \r\n\r\n\r\n* The shaded area for the last hour of the charts in Telescope denotes that that hour’s worth of data is incomplete, as it is still coming through from ComScore.\r\n\r\n\r\n* To read more about what you can learn from the changes that were made to your story, please visit the [Engagement page](https://telescope-beta.tools.bbc.co.uk/guides/data-on-specific-content/how-long-did-people-spend-on-my-content).\r\n\r\n\r\n",
+                            "name": "How much traffic did my content get?",
+                            "id": "howmuchtrafficdidmycontentget"
+                        }
+                    ],
+                    "next": {
+                        "title": "Where is my traffic coming from?",
+                        "dir": 1,
+                        "file": 1
+                    },
+                    "previous": {
+                        "title": "Demographic data",
+                        "dir": 0,
+                        "file": 2
+                    }
+                },
+                {
+                    "name": "2. Where is my traffic coming from?.md",
+                    "title": "Where is my traffic coming from?",
+                    "index": 1,
+                    "contents": [
+                        {
+                            "data": "## Where is my traffic coming from?\r\n\r\n\r\n \r\n\r\n\r\nTo find this out, you can click through the tabs at the top of the ‘page views’ chart on a story page in Telescope. \r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n![Page views to your story over time](http://localhost:3000/images/Screen%20Shot%202018-02-07%20at%2011.12.03.png \"Pageviews over time\") \r\n\r\n\r\n\r\n\r\n\r\nIt breaks traffic down into the following sources:\r\n\r\n\r\n\r\n\r\n\r\n**Entry type:** This will show you which websites or referrers readers came from. The definitions of these are:\r\n\r\n\r\n \r\n\r\n\r\n* **BBC:** This is internal traffic, so readers coming to a page from another BBC page or via the BBC News app.\r\n\r\n\r\n* **Social:** Traffic from social media referrers. This includes traffic from links sent in emails or messaging apps that we can't track to a specific source, as well as traffic from Facebook Instant Articles.\r\n\r\n\r\n* **Search:** Traffic from search engines.\r\n\r\n\r\n* **Other:** Traffic from any other website that isn’t categorised as search, social, or BBC. This includes aggregators like Google News or Flipboard, other news websites, or blogs, Wikipedia pages wnd websites in general.\r\n\r\n\r\n\r\n\r\n\r\nIf you wanted to just see one source of traffic, click on the coloured box with its name, and it will show just this type of traffic:\r\n\r\n\r\n\r\n\r\n\r\n![Viewing traffic from a specific source](http://localhost:3000/images/Screen%20Shot%202018-02-07%20at%2011.18.27.png \"View traffic from a specific source\")\r\n\r\n\r\n\r\n\r\n\r\n**Social:** This will show you the social referrers that drove traffic to the story. If a social referrer you’re looking for is not listed here, it’s because it did not drive any traffic to the story.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n![Viewing traffic from a specific social network](http://localhost:3000/images/Screen%20Shot%202018-02-07%20at%2011.18.15.png \"View traffic from a specific social network\")\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n**Regions and countries:** This will show you where in the world your readers came from - regions covers the UK and continents, and countries breaks traffic down by country.\r\n\r\n\r\n\r\n\r\n\r\n![Viewing where you readers came from](http://localhost:3000/images/Screen%20Shot%202018-02-07%20at%2011.49.49.png \"Viewing the location of readers\")\r\n\r\n\r\n\r\n\r\n\r\n **Device:** This will show you which device users visited your story on, i.e. mobile, desktop, tablet or smart TV. \r\n\r\n\r\n\r\n\r\n\r\n ![Which device readers used to visit your story](http://localhost:3000/images/Screen%20Shot%202018-02-07%20at%2011.27.12.png \"Viewing the device type\")\r\n\r\n\r\n\r\n\r\n\r\n**Platform:** This will show you the platform the story was viewed on, i.e. responsive web, the BBC News app, a Google AMP page or a Facebook Instant Article\r\n\r\n\r\n\r\n\r\n\r\n ![Which platform people read your story on](http://localhost:3000/images/Screen%20Shot%202018-02-07%20at%2011.27.17.png \"Viewing a platform\")\r\n\r\n\r\n\r\n\r\n\r\n**_What does this mean?_**\r\n\r\n\r\n \r\n\r\n\r\nThis data gives you a clearer picture of how your content is performing. Is it getting a large portion of its traffic from social referrers? Is the search traffic high because your headline answers a question people are asking? \r\n\r\n\r\n \r\n\r\n\r\n**_Tips_**\r\n\r\n\r\n* Make sure your story is being promoted where relevant, such as an official BBC social media account or relevant index page.\r\n\r\n\r\n* Think about where your story might find its audience and what sort of headline would work well for that platform: is it an emotive, human story that would perform well on social media—and does the headline reflect that emotion? Or, is it more of an answer to a question people are asking, and therefore benefit from a search-friendly headline?\r\n\r\n\r\n",
+                            "name": "Where is my traffic coming from?",
+                            "id": "whereismytrafficcomingfrom"
+                        }
+                    ],
+                    "next": {
+                        "title": "How long did people spend on my content?",
+                        "dir": 1,
+                        "file": 2
+                    },
+                    "previous": {
+                        "title": "How much traffic did my content get?",
+                        "dir": 1,
+                        "file": 0
+                    }
+                },
+                {
+                    "name": "3. How long did people spend on my content?.md",
+                    "title": "How long did people spend on my content?",
+                    "index": 2,
+                    "contents": [
+                        {
+                            "data": "## How long did people spend on my content?\r\n\r\n\r\nIf you scroll down a story's stats page, you’ll find the second chart: **'engagement'**. This will show you the average time that was spent on your chosen story:\r\n\r\n\r\n \r\n\r\n\r\n \r\n\r\n\r\n![The average time readers spent on your story](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.21.03.png \"Average time spent, engagement\")\r\n\r\n\r\n\r\n\r\n\r\nAs with the other charts on the page, you can see when changes were made to your story, and if they had an effect on the average engaged time of the piece. You can see these by hovering over the vertical lines on the chart. These will by default be switched on, but to turn them off just click the 'show events' slider:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n![Seeing when changes were made to your story](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.22.49.png? \"Making changes to your story\")\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nIf you want to see more detail about the changes made to your story, just click the 'full event details' link in the red box, which will appear when you hover over the vertical lines in the chart. Doing so will bring up the following box with details:\r\n\r\n\r\n\r\n\r\n\r\n![More detail on changes made to your story](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.22.59.png? \"Detail on changes made to your story\" )\r\n\r\n\r\n\r\n\r\n\r\n **_What does this mean?_**\r\n\r\n\r\n \r\n\r\n\r\nEngagement is an important metric, as it’s key to building a loyal audience. A normal BBC News news story should be reaching between 40-90 seconds' engaged time—although articles should be assessed individually; this may be longer for features, for instance. If engagement is lower than usual for your story, ask yourself: is there anything to do that will keep more people on it? \r\n\r\n\r\n\r\n\r\n\r\n**_Tips_** \r\n\r\n\r\n \r\n\r\n\r\n* Chartbeat’s [Heads Up Display](https://chartbeat.zendesk.com/hc/en-us/articles/209707967-How-to-install-the-Heads-Up-Display) is useful here. The scroll depth indicator shows you where users are leaving an article. Is it at a specific point? Why is that? What percentage read to the end of the piece?\r\n\r\n\r\n* Are there elements of the page that could be moved, or made more accessible so more users are enticed to stay on the page? Can large blocks of text be given sub-headings, for example?\r\n\r\n\r\n* If your story is performing particularly well with a high average engaged time, make sure that it is being promoted sufficiently on indexes and cross-linked to from other relevant articles. \r\n\r\n\r\n \r\n\r\n\r\n",
+                            "name": "How long did people spend on my content?",
+                            "id": "howlongdidpeoplespendonmycontent"
+                        }
+                    ],
+                    "next": {
+                        "title": "What about recirculation?",
+                        "dir": 1,
+                        "file": 3
+                    },
+                    "previous": {
+                        "title": "Where is my traffic coming from?",
+                        "dir": 1,
+                        "file": 1
+                    }
+                },
+                {
+                    "name": "4. What about recirculation?.md",
+                    "title": "What about recirculation?",
+                    "index": 3,
+                    "contents": [
+                        {
+                            "data": "## What about recirculation?\r\n\r\n\r\n\r\n\r\n\r\nThe third chart on the page is **'recirculation'**. This shows you the average proportion of the page’s browsers who click away to another piece of content on the site. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n![Recirculation of your story over time](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.26.11.png?token=AY53725kPyu4nDjxmRwoIHtlwvO7ITHZks5ZVPzGwA%3D%3D \"Recirculation chart\")\r\n\r\n\r\n\r\n\r\n\r\nAs with the other charts on the page, you can see when changes were made to your story, and if they had an effect on the average recirculation rate of the piece. You can see these by hovering over the vertical lines on the chart. (These will by default be switched on, but to turn them off just click the 'show events' slider.\r\n\r\n\r\n\r\n\r\n\r\n![Seeing when changes were made to your story](http://localhost:3000/images/Screen%20Shot%202018-01-15%20at%2017.25.59.png?token=AY53725kPyu4nDjxmRwoIHtlwvO7ITHZks5ZVPzGwA%3D%3D \"Recirculation and changes\")\r\n\r\n\r\n\r\n\r\n\r\nBBC News's average recirculation rate is around 30-40%, but articles should be judged individually. For instance, if many of the page’s visitors are coming from social and search the recirculation rate will be lower, as these users would likely be looking for a specific piece of content, versus direct loyal users who would be browsing the site more broadly. \r\n\r\n\r\n\r\n\r\n\r\nAnd a high recirculation rate on desktop can also mask a lower recirculation rate on mobile, as the right hand side boxes (top stories, features and most read) only appear at the very bottom of the story on mobile. Here is what a story looks like on mobile versus desktop:\r\n\r\n\r\n \r\n\r\n\r\n \r\n\r\n\r\n \r\n\r\n\r\n![Mobile versus desktop view of a BBC News story](http://localhost:3000/images/Screen%20Shot%202017-06-27%20at%2014.42.44.png?token=AY537wZNYapGPyABrCeFcVKXlUdowef-ks5ZW5uawA%3D%3D \"Mobile versus desktop view of a BBC News story\")\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n**_What does this mean?_** \r\n\r\n\r\nSimilarly to engagement, recirculation is an important signal for us to pay attention to for creating engaging content and building a loyal audience. It helps us retain new users and turn them into regular visitors, and surface the most relevant content that resonates with our existing readers.\r\n\r\n\r\n \r\n\r\n\r\n \r\n\r\n\r\n**_Tips_** \r\n\r\n\r\n \r\n\r\n\r\n* Again, Chartbeat’s [scroll depth indicator](https://chartbeat.zendesk.com/hc/en-us/articles/210240797-Learn-about-Scroll-Depth) is useful here: it will show you where your users are reading up to, which could be a handy place to insert more internal links that are relevant to the story and the reader’s journey. Generally, adding more related links is a good way of boosting recirculation. \r\n\r\n\r\n* When adding related links, you don't need to necessarily use the headline as the text you're linking to the piece from—a strong quote works well, too. It's worth thinking about the piece you're adding the link to and why a user is reading it—what motivated them to read this piece, and what else would they be interested in on a similar theme? Use that thinking to inform how you write the link text.  \r\n\r\n\r\n* The [Heads Up Display](https://chartbeat.zendesk.com/hc/en-us/articles/209707967-How-to-install-the-Heads-Up-Display) will also show you which of these internal links are most popular, so you can move them to a more prominent position within the article if needed.\r\n\r\n\r\n* The right hand side boxes on desktop do not display on mobile—so it’s worth adding inline links to provide more relevant content for mobile users. \r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n",
+                            "name": "What about recirculation?",
+                            "id": "whataboutrecirculation"
+                        }
+                    ],
+                    "next": {
+                        "title": "Frequently asked questions",
+                        "dir": 2,
+                        "file": 0
+                    },
+                    "previous": {
+                        "title": "How long did people spend on my content?",
+                        "dir": 1,
+                        "file": 2
+                    }
+                }
+            ]
+        },
+        {
+            "name": "3. Other Useful Stuff",
+            "title": "Other Useful Stuff",
+            "index": 2,
+            "files": [
+                {
+                    "name": "1. Frequently asked questions.md",
+                    "title": "Frequently asked questions",
+                    "index": 0,
+                    "contents": [
+                        {
+                            "data": "## Overview\r\n\r\n\r\nHere’s a list of frequently asked questions. If you have any that aren’t included, please email telescope@bbc.co.uk. \r\n\r\n\r\n \r\n\r\n",
+                            "name": "Overview",
+                            "id": "overview"
+                        },
+                        {
+                            "data": "## The numbers in Telescope don't match another tool I use. Why?\r\n\r\n\r\nAlmost all analytics packages, including Telescope and Chartbeat, are based on varying methodologies and data sources. There will always be differences in the ways that data is collected, processed, labelled and reported between these sources.\r\n\r\n\r\n\r\n\r\n\r\nFor example, many analytics packages (including  ComScore and Google Analytics) use sampling in order to process large volumes of data quickly, so that they can provide reporting almost immediately, which is appropriate for a news environment. This means that rather than measuring every single page view, they may take 1 in 128 and then multiply the figures in the final reports by 128. \r\n\r\n\r\n\r\n\r\n\r\nThis also means that the data you see in reports can be approximated, and therefore multiple data sources will be unlikely to match exactly. However the sampling rates are set in a way that means that they are still acceptable for measuring and acting upon clear themes and patterns in the data.\r\n\r\n\r\n\r\n\r\n\r\nGenerally we would deem a variance of less than 10% between two sources as acceptable, so please do contact us if you have concerns about a bigger discrepancy.\r\n\r\n\r\n\r\n\r\n\r\nWe recommend that you use Telescope, as most of the time we provide unsampled data which will be the most accurate and robust measure. However, during periods of exceptionally high traffic such as a big breaking news story, we may fall back on our sampled data stream in order to ensure that you are receiving timely reports.\r\n\r\n\r\n\r\n\r\n\r\nLastly, Telescope data includes both the BBC News website and mobile apps whereas Chartbeat is only the website. This means that Telescope figures will generally be much higher and its traffic sources will skew towards internal traffic when expressed as a percentage. \r\n\r\n\r\n\r\n\r\n",
+                            "name": "The numbers in Telescope don't match another tool I use. Why?",
+                            "id": "thenumbersintelescopedontmatchanothertooliusewhy"
+                        },
+                        {
+                            "data": "## When does Telescope use sampled data?\r\n\r\n\r\nWe switch on sampled data if we're experiencing delays in regular, full data coming through to Telescope. The reason is so that you can still see the most accurate stats as quickly as possible while we try to restore full data. This does mean, however, that stories that would have lower page views would be crudely measured. If you're concerned this is the case for your story, please email us at telescope@bbc.co.uk and we'll look into the figures for you. \r\n\r\n\r\n\r\n\r\n",
+                            "name": "When does Telescope use sampled data?",
+                            "id": "whendoestelescopeusesampleddata"
+                        },
+                        {
+                            "data": "## Why is ‘direct’ appearing in the entry type on older stories?\r\n\r\n\r\nWe recently changed the way we categorise ‘direct’ traffic (i.e. traffic from emails and messaging apps that we can’t track) to make it clearer for users, but this will only show on stories published from January 2018 onwards. For older stories, ‘direct’ refers to traffic from the BBC News app and from links sent in emails/messaging. If you’re looking at an older story and want more accurate data for where your traffic came from, just email telescope@bbc.co.uk and we can pull that data for you.\r\n\r\n\r\n\r\n\r\n",
+                            "name": "Why is ‘direct’ appearing in the entry type on older stories?",
+                            "id": "whyisdirectappearingintheentrytypeonolderstories"
+                        },
+                        {
+                            "data": "## Why am I being prompted to update Google Chrome?\r\n\r\n\r\nTelescope does not work in old versions of Chrome, as they can have major security flaws due to their age. You can order the latest version of Chrome for free via **[BBC Essentials.](https://som-myit.onbmc.com/ux/myitapp/#/catalog/home)**\r\n\r\n\r\n\r\n\r\n",
+                            "name": "Why am I being prompted to update Google Chrome?",
+                            "id": "whyamibeingpromptedtoupdategooglechrome"
+                        },
+                        {
+                            "data": "## How do I get the Telescope Chrome plugin?\r\n\r\n\r\nYou can **[go here](https://chrome.google.com/webstore/detail/bbc-telescope/adpeohpalnmefpfhlpadbfdgjnkaapje).** If you click on it while you have a story open, and it’ll take you to the Telescope page for that story directly. Once you download the plugin it will appear on the right hand side of your browser bar:\r\n\r\n\r\n \r\n\r\n\r\n![alt text](http://localhost:3000/images/Screen%20Shot%202017-08-25%20at%2010.00.59.png?token=AY5376tBMpRKG0_Zpdytx0vlit84E46oks5ZVSTCwA%3D%3D  \"Telescope Chrome plugin\")\r\n\r\n\r\n\r\n\r\n",
+                            "name": "How do I get the Telescope Chrome plugin?",
+                            "id": "howdoigetthetelescopechromeplugin"
+                        },
+                        {
+                            "data": "## When I download the list view report for my service as a CSV the language formatting is broken. What should I do?\r\n\r\n\r\nYou can follow these stepson a Windows machine:\r\n\r\n\r\n\r\n\r\n\r\n1. Open Excel and select a to Create a new workbook:\r\n\r\n\r\n![alt text](http://localhost:3000/images/61555863-0F82-4223-AA37-F2F4EBF5B3F4.png \"Opening a new workbook in Microsoft Excel\")\r\n\r\n\r\n\r\n\r\n\r\n2. Select 'data' and then 'from text':\r\n\r\n\r\n![alt text](http://localhost:3000/images/D791AB5C-9CDF-4D7A-98ED-D62686DCE596.png \"Selecting the data source for your spreadsheet\")\r\n\r\n\r\n\r\n\r\n\r\n3. Select the file you have downloaded from Telescope:\r\n\r\n\r\n![alt text](http://localhost:3000/images/3-open-file-1.png \"Selecting the file you have downloaded from Telescope\")\r\n\r\n\r\n\r\n\r\n\r\n4. Change the file origin to Unicode UTF-8 and then hit 'Next':\r\n\r\n\r\n![alt text](http://localhost:3000/images/C79A4846-A0FA-4772-B5FC-C55BDD9AA83E.png \"Changing the language of your spreadsheet\")\r\n\r\n\r\n\r\n\r\n\r\n5. Select 'Comma' as the delimiter and click 'Finish':\r\n\r\n\r\n![alt text](http://localhost:3000/images/5-comma-seperator-1.png \"Selecting 'comma' as the delimiter in your spreadsheet\")\r\n\r\n\r\n\r\n\r\n\r\n6. Click 'OK':\r\n\r\n\r\n\r\n\r\n\r\n   ![alt text](http://localhost:3000/images/6-add-to-file-1.png \"Click OK\")\r\n\r\n\r\n\r\n\r\n\r\n7. Your file should now appear correctly:\r\n\r\n\r\n![alt text](http://localhost:3000/images/DD9202EC-9FBD-45FA-80A0-A35C5D93C102-1.png \"Example of a spreadsheet with correct language formatting\")\r\n\r\n\r\n\r\n\r\n",
+                            "name": "When I download the list view report for my service as a CSV the language formatting is broken. What should I do?",
+                            "id": "whenidownloadthelistviewreportformyserviceasacsvthelanguageformattingisbrokenwhatshouldido"
+                        },
+                        {
+                            "data": "## What about privacy?\r\n\r\n\r\nTelescope adheres to the **[BBC’s policy of fair processing of staff data](https://intranet.gateway.bbc.co.uk/policy/Pages/Staff-Fair-Processing-Notice.aspx).** It collects two types of BBC staff data:\r\n\r\n\r\n* Author data (i.e. who has written, edited or modified a story in CPS). This is in order for journalists to filter Telescope by which stories they have worked on, which is a feature we hope to integrate into Telescope in the future. In compliance with GDPR, it will only be possible for users to filter the Telescope list view by stories they themselves have worked on —not by their colleagues’ stories.\r\n\r\n\r\n* Usage of Telescope based on users’ BBC network credentials. This is so that we can more accurately measure Telescope adoption in the newsroom. This data will be encrypted per BBC Information Security guidelines.\r\n\r\n\r\n\r\n\r\n",
+                            "name": "What about privacy?",
+                            "id": "whataboutprivacy"
+                        },
+                        {
+                            "data": "## What about accessibility? \r\n\r\n\r\nFor users reliant on screen readers, Telescope is accessible using the following keyboard shortcuts:\r\n\r\n\r\n\r\n\r\n\r\n**_On the Telescope list page:_**\r\n\r\n\r\n* Alt + D will let you show or hide the date selector - and you can tab through the date selector to choose a date or date range\r\n\r\n\r\n* Alt + R will let you reset all of your chosen filters \r\n\r\n\r\n* Alt + S will let you jump to the search bar, where you can search for a story using its CPS ID\r\n\r\n\r\n\r\n\r\n\r\n**_On a Telescope story page:_**\r\n\r\n\r\n* Alt + D will let you show or hide the date selector - and you can tab through the date selector to choose a date or date range\r\n\r\n\r\n* Alt + E will let you hide or show events on the charts\r\n\r\n\r\n* Alt + T will let you toggle the chart so that you can view it in table format \r\n\r\n\r\n* Alt + S will let you jump to the search bar, where you can search for a story using its CPS ID\r\n\r\n\r\n\r\n\r\n",
+                            "name": "What about accessibility? ",
+                            "id": "whataboutaccessibility"
+                        },
+                        {
+                            "data": "## How can I find out about new features or testing, or get in touch if something's broken?\r\n\r\n\r\nEmail telescope@bbc.co.uk for more details, and we'll reply as soon as possible. \r\n\r\n\r\n",
+                            "name": "How can I find out about new features or testing, or get in touch if something's broken?",
+                            "id": "howcanifindoutaboutnewfeaturesortestingorgetintouchifsomethingsbroken"
+                        }
+                    ],
+                    "next": {
+                        "title": "Glossary of terms",
+                        "dir": 2,
+                        "file": 1
+                    },
+                    "previous": {
+                        "title": "What about recirculation?",
+                        "dir": 1,
+                        "file": 3
+                    }
+                },
+                {
+                    "name": "2. Glossary of terms.md",
+                    "title": "Glossary of terms",
+                    "index": 1,
+                    "contents": [
+                        {
+                            "data": "## GLOSSARY OF TERMS \r\n\r\n\r\n\r\n\r\n\r\n**_Browsers_**\r\n\r\n\r\nThese are also known as unique browsers or unique visitors. A browser is the device (e.g. a mobile or desktop) that has visited a page (or multiple pages) on a website during a specific period of time. It's worth noting that one person can be more than one browser (e.g. if someone visits BBC News site on their mobile and on their laptop.)\r\n\r\n\r\n\r\n\r\n\r\n**_Visits_** \r\n\r\n\r\nThese are a series of events (e.g. a page view) from a single browser. One browser could visit multiple pages in one visit to the site, for instance. A visit ends when there’s been no activity (e.g. a new page load or a click on a page) for 30 minutes, or when the user closes their browser window. \r\n\r\n\r\n \r\n\r\n\r\n**_Device_**\r\n\r\n\r\nThe device users visit us on, (e.g. mobile, tablet, desktop). \r\n\r\n\r\n \r\n\r\n\r\n**_Engagement/engaged time_**\r\n\r\n\r\nHow long users spend on an individual page.\r\n\r\n\r\n \r\n\r\n\r\n**_Entry type_**\r\n\r\n\r\nHow users came to your story, e.g. from another BBC page, via a search engine or social network, or from a link in an email or third party app. These are defined as:\r\n\r\n\r\n\r\n\r\n\r\n* **BBC:** Internal traffic, so readers coming to a page from another BBC News page or via the BBC News apps\r\n\r\n\r\n* **Social:** Traffic from social media referrers (including Facebook Instant Articles)\r\n\r\n\r\n* **Search:** Traffic from search engines (including Google AMP pages)\r\n\r\n\r\n* **Email and messaging:** Traffic from links sent in emails or messaging apps that we can't track to a specific source\r\n\r\n\r\n* **Other:** Traffic from any other website that isn’t categorised as search, social, or BBC. This includes aggregators like Google News or Flipboard, Apple News traffic, other news websites, or blogs, Wikipedia pages wnd websites in general. \r\n\r\n\r\n \r\n\r\n\r\n**_Event_**\r\n\r\n\r\nA change that was made to a piece of content, e.g. if the headline was changed, if a kicker was added to the headline, if the story was placed on an index or if internal links were added.\r\n\r\n\r\n \r\n\r\n\r\n**_Page views_**\r\n\r\n\r\nEach time a BBC News page has been viewed by a user. \r\n\r\n\r\n\r\n\r\n\r\n**_Page views per browser_**\r\n\r\n\r\nThe average number of pages viewed by browsers to the site—one browser could visit multiple pages. This is calculated by dividing the total number of page views by the total number of browsers in a given period. \r\n\r\n\r\n\r\n\r\n\r\n**_Page views per visit_**\r\n\r\n\r\nThe average number of pages viewed in each visit to the site. This is calculated by dividing the total number of page views by the total number of visits—that is, the number of times a site is visited—in that day.\r\n\r\n\r\n \r\n\r\n\r\n**_Platform_**\r\n\r\n\r\nWhether users visit via responsive web, the BBC News app or Apple News, or via a Google AMP page or a Facebook Instant Article.\r\n\r\n\r\n \r\n\r\n\r\n**_Recirculation_**\r\n\r\n\r\nThe proportion of a page’s readers who clicked onwards to another BBC article or index page.\r\n\r\n\r\n \r\n\r\n\r\n \r\n\r\n\r\n",
+                            "name": "GLOSSARY OF TERMS ",
+                            "id": "glossaryofterms"
+                        }
+                    ],
+                    "next": {
+                        "title": "Release notes",
+                        "dir": 2,
+                        "file": 2
+                    },
+                    "previous": {
+                        "title": "Frequently asked questions",
+                        "dir": 2,
+                        "file": 0
+                    }
+                },
+                {
+                    "name": "3. Release notes.md",
+                    "title": "Release notes",
+                    "index": 2,
+                    "contents": [
+                        {
+                            "data": "## Overview\r\n\n\n\r\n\nThis is where we list the new features and improvements we have added to Telescope. If you'd like to know more, please email telescope@bbc.co.uk .\r\n\n\n\r\n**_May 2018_**\r\n\n\n\r\nWe have released the following new features to Telescope Beta:\r\n\n\n\r\n**FIA traffic for World Service sites**\r\n\n\n\r\nWorld Service sites now have views from Facebook Instant Articles included in their traffic. It is bucketed under 'Social' in Entry Type, and broken out in the 'Platform' tab on the Page Views chart:\r\n\n\n\r\n![Where to see Facebook Instant Article traffic](http://localhost:3000/images/image001-3.png \"Where to see Facebook Instant Article traffic\")\r\n\n\n\r\n**Apple News and BBC News and Sport apps in the Platform tab**\r\n\n\n\r\nWe have renamed 'Mobile App' in the Platform tab on the Page Views chart as the 'BBC News App'. We have also separated out any traffic from the BBC Sport App, and renamed 'Website' 'BBC Website'. This is so users can more easily see how much traffic came to their story via those individual apps and via the website.\r\n\n\n\r\n![Traffic from BBC News and BBC Sport apps](http://localhost:3000/images/Screen%20Shot%202018-05-16%20at%2021.21.18.png? \"Traffic from BBC News and BBC Sport apps\")\r\n\n\n\r\n\nApple News traffic is also now included in the Page Views chart. It's bucketed under 'Other' in Entry Type, and broken out in the 'Platform' tab.\r\n\n\n\r\n![App traffic and Apple News](http://localhost:3000/images/Screen%20Shot%202018-05-17%20at%2014.22.29.png? \"App traffic and Apple News\")\r\n\n\n\r\n\r\n\n\n\r\n**_January 2018_**\r\n\n\n\r\nWe have released the following new features to Telescope Beta:\r\n\n\n\r\n**List view metrics**\nOn the list view, we are now showing engaged time and recirculation alongside page views. We hope that this will enable journalists to identify opportunities for optimisation more efficiently as they won't have to click through to each article's dashboard to see these metrics.\r\n\n\n\r\n**List/article discrepancies**\nA lot of work has happened under the hood to ensure that the list view numbers are much closer to the numbers shown on the article dashboard. We have to update the list view less frequently in order to make it work quickly, which means that the two numbers won't be exactly the same. But the discrepancy should be much smaller than it was before this release.\r\n\n\n\r\n**Report this page**\nWe have added a button on the article page that allows journalists to report it to us if they think that the numbers are incorrect.\r\n\n\n\r\n**Story dashboard events**\nWe have reinstated CPS events on the main article article view chart with improved reliability. These help our journalists to understand which CPS changes may have instigated a change in the way users are consuming that piece of content.\r\n\n\n\r\n**Engaged time bug**\nWe had an issue with calculating and graphing engaged time for stories with a high avgerage engaged time. These issues have been fixed.\r\n\n\n\r\n**Login**\nTelescope Beta will now allow users to log in with their BBC username and password if a BBC certificate is not present on their computer. This means that journalists can use Telescope on their personal devices when working remotely.\r\n\n\n\r\n**Database performance for heavy traffic**\nAnother piece of work which is under the hood, but will make Telescope much more reliable and speedy when it comes to large scale breaking news events which generate higher than usual traffic.\n",
+                            "name": "Overview",
+                            "id": "overview"
+                        }
+                    ],
+                    "previous": {
+                        "title": "Glossary of terms",
+                        "dir": 2,
+                        "file": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
