@@ -1,15 +1,39 @@
 import styled from 'styled-components';
+import helpers from '@bbc/telescope-kit-helpers';
+const {
+  white,
+  black,
+  keyLineGrey,
+} = helpers.colours;
 
 export const Masthead = styled.div`
-  background-color: #1f1c1f;
   height: auto;
   width: 100%;
   margin-top: -10px;
   color: white;
   padding: 10px 0 10px;
 
-  h2 {
+  .row{
+    display: flex;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+
+    .col-sm-2 {width: 16.6%}
+    .col-sm-3 {width: 25%}
+
+    .col-sm-2, .col-sm-3, .col-sm-7{
+      @media (max-width: 767px) {
+        width: 100%;
+      }     
+    }
+
+  }
+
+  h1 {
     font-weight: bold;
+    color: ${black};
     font-style: normal;
     font-stretch: normal;
     letter-spacing: -0.3px;

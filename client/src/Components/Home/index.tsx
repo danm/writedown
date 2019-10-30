@@ -71,7 +71,7 @@ export default function () {
         <div className="container">
           <div className="row">
             <div className="col-sm-3">
-              <h2>{ title || jsondata.title}</h2>
+              <h1>{ title || jsondata.title}</h1>
             </div>
             <div className="col-sm-7">
               <Blurb>{removeHeaders(jsondata.text)}</Blurb>

@@ -4,7 +4,7 @@
 ## development
 `git clone git@github.com:danm/writedown.git`  
 `cd writedown`  
-`yarn`  
+`yarn` 
 
 ## start sandbox
 `cd writedown/client`  
