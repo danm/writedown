@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/danm/write-down#readme",
   "dependencies": {
+    "@bbc/telescope-kit-button": "^5.0.2",
     "@bbc/telescope-kit-helpers": "^5.0.2",
     "@bbc/telescope-kit-icons": "^5.0.2"
   },

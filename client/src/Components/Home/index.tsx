@@ -1,6 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { Icon } from '@bbc/telescope-kit-icons';
 import Breadcrumbs from '../Breadcrumbs';
+import StyledLink from '../Button';
+import Button from '@bbc/telescope-kit-button';
 
 import {
   Masthead,
@@ -8,9 +11,10 @@ import {
   MainContent,
   Heading,
   SpacerBottom,
+  Row,
+  Container,
 } from './style';
 
-import Button from '../Button';
 import { IMD, Subject } from '../../Types/markdownJSON';
 import jsondata from '../../guides-formated.json';
 import sanitize from '../../helpers/sanitize';
@@ -24,12 +28,12 @@ function removeHeaders(d: string): string | null {
 
 function buildCards(data: Subject) {
   return data.files.map((file) => (
-    <div className="col-sm-3" key={file.index}>
-      <Button
-        title={file.title}
-        href={`/${sanitize(data.title)}/${sanitize(file.title)}`}
-      />
-    </div>
+      <div className="col-shrink" key={file.index}>
+        <a
+          className="homepage-card-link"
+          href={`/${sanitize(data.title)}/${sanitize(file.title)}`}
+        >{file.title}</a>
+      </div>
   ));
 }
 
@@ -38,12 +42,14 @@ function buildSections(data: IMD) {
   const sections = data.directories
     .map((directory) => (
       <div key={directory.index}>
-        <div className="row">
+        <Row>
           <div className="col-sm-12">
             <Heading>{directory.title}</Heading>
           </div>
-        </div>
-        <div className="row">{buildCards(directory)}</div>
+        </Row>
+        <Row>
+          {buildCards(directory)}
+        </Row>
       </div>
     )).filter((o) => o);
   if (sections.length === 0) {
@@ -68,33 +74,38 @@ export default function () {
   return (
     <div>
       <Masthead>
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-3">
-              <h1>{ title || jsondata.title}</h1>
-            </div>
-            <div className="col-sm-7">
-              <Blurb>{removeHeaders(jsondata.text)}</Blurb>
-            </div>
-            <div className="col-sm-2 btn-container">
-              {/* <Button
-                title="Download the full guide"
-              /> */}
-            </div>
-          </div>
-        </div>
+        <Container>
+          <Row>
+              <div className="col-sm-3 col-centre">
+                <h1>{ title || jsondata.title}</h1>
+              </div>
+              <div className="col-sm-7 col-centre">
+                <Blurb>{removeHeaders(jsondata.text)}</Blurb>
+              </div>
+              <div className="col-sm-2 col-centre">
+                <Button
+                  className="gel-button download-button"
+                  href="#"
+                  >
+                  <Icon aria-hidden="true" className="icon" icon="download" />
+                  Download the full guide
+                </Button>
+              </div>
+            </Row>
+        </Container>
+
       </Masthead>
       <MainContent>
-        <div className="container">
+        <Container>
           { subject && (
-          <Breadcrumbs
-            site={jsondata.title}
-            subject={title}
-          />
-          ) }
-          {buildSections(jsondata)}
-          <SpacerBottom />
-        </div>
+            <Breadcrumbs
+              site={jsondata.title}
+              subject={title}
+            />
+            ) }
+            {buildSections(jsondata)}
+            <SpacerBottom />
+        </Container>
       </MainContent>
     </div>
   );
