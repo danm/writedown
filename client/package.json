@@ -23,20 +23,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": [
-            "airbnb-typescript"
-        ],
-        "env": {
-            "browser": true,
-            "node": true
-        },
-        "rules": {
-            "react/no-danger": "off",
-            "no-nested-ternary": "off"
-        }
+        "eject": "react-scripts eject",
+        "snap": "react-snap"
     },
     "browserslist": {
         "production": [
@@ -61,6 +49,7 @@
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.14.3",
-        "eslint-plugin-react-hooks": "^1.7.0"
+        "eslint-plugin-react-hooks": "^1.7.0",
+        "react-snap": "^1.23.0"
     }
 }
