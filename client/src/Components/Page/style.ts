@@ -19,12 +19,12 @@ export const PageContainer = styled.div`
     font-size: 14px;
     line-height: 22px;  
     
-    p {
+    p, ul {
       width: 70%;
       }
 
-    p img {
-      width: 130%;
+    p + img {
+      width: 100%;
     }  
 
     a {
