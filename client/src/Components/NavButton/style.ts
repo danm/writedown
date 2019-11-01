@@ -29,6 +29,7 @@ export const Arrow = styled.div`
 
 export const NavButton = styled.div`
   width: 195px;
+  min-height: 105px;
   height: ${({ text }: { text: string }) => (text.length <= 15 ? '65px' : text.length >= 30 ? '105px' : '85px')};
   background-color: #1f1c1f;
   position: relative;

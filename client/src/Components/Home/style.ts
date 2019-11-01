@@ -72,7 +72,7 @@ export const Row = styled.div`
 export const Container = styled.div`
   width: 100%;
   max-width: 1248px;
-  padding: 0 16px;
+  padding: 8px 16px 32px 16px;
   margin: 0 auto;
   box-sizing: border-box;
 
