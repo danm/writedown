@@ -8,6 +8,16 @@ import Breadcrumbs from '../Breadcrumbs';
 import Sidebar from '../Sidebar';
 import NoContent from '../204';
 
+import {
+  Masthead,
+  Blurb,
+  MainContent,
+  Heading,
+  SpacerBottom,
+  Row,
+  Container,
+} from '../Home/style';
+
 export default function () {
   const { subject, article } = useParams();
   let fileClean;
@@ -25,29 +35,44 @@ export default function () {
   }
 
   return (
+
     <div>
-      <div>
-        <h2>{fileClean.title}</h2>
-        <Breadcrumbs
-          site={data.title}
-          file={fileClean.title}
-          subject={subjectClean.title}
-        />
-        <Sidebar file={fileClean} />
-      </div>
-      <div>
-        <Page contents={fileClean.contents} />
-        <NavButton
-          direction="previous"
-          subject={subjectClean}
-          file={fileClean}
-        />
-        <NavButton
-          direction="next"
-          subject={subjectClean}
-          file={fileClean}
-        />
-      </div>
+      <Container>
+        <Row>
+          <div className="col-sm-3">
+            <Breadcrumbs
+              site={data.title}
+              file={fileClean.title}
+              subject={subjectClean.title}
+            />
+            <span className="sidebar-title">{fileClean.title}</span>
+            <Sidebar file={fileClean} />
+          </div>
+          <div className="col-sm-7">
+            <Page contents={fileClean.contents} />
+          </div>
+        </Row>
+        
+        <Row className="big-margins">
+          <div className="col-sm-3">
+            &nbsp;
+          </div>  
+          <div className="col-sm-3">
+            <NavButton
+              direction="previous"
+              subject={subjectClean}
+              file={fileClean}
+            />
+          </div>
+          <div className="col-sm-3">
+            <NavButton
+              direction="next"
+              subject={subjectClean}
+              file={fileClean}
+            />
+          </div>
+        </Row>
+      </Container>
     </div>
   );
 }

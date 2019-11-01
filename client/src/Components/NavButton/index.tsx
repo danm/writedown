@@ -16,18 +16,21 @@ export default function ({ direction, subject, file }:
   }
 
   return (
-    <Link href={sanitize(title)}>
-      <NavButton text={title}>
-        { direction === 'next' && 'next arrow icon' }
-        <div className="large">
-          <div className="title">
-            {direction.toUpperCase()}
-            article
+    <div className={'nav-button-wrapper-' + direction}>
+        <Link href={sanitize(title)}>
+        <NavButton text={title} className={ 'nav-button-' + direction }>
+          {/* { direction === 'next' && '>' } */}
+          <div className="large">
+            <div className="title">
+              {direction.toUpperCase() + ' '}
+              article
+            </div>
+            <div className="text">{title}</div>
           </div>
-          <div className="text">{title}</div>
-        </div>
-        { direction === 'previous' && 'previous arrow icon' }
-      </NavButton>
-    </Link>
+          {/* { direction === 'previous' && '<' } */}
+        </NavButton>
+      </Link>
+    </div>
+
   );
 }

@@ -893,10 +893,32 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bbc/telescope-kit-base@^5.0.2":
+"@bbc/telescope-kit-base@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-base/-/telescope-kit-base-5.1.1.tgz#00bfa85f0135d691aaaed217277d995a40b01b16"
+  integrity sha512-cf8F1cVw84wASPtTpqkpCLTDNrkUtvwLs+Reo0OxdXXU21q4XYgpDxTxatAO0VNu2+CnQSvWyp5Fra678kudZA==
+
+"@bbc/telescope-kit-button@5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-button/-/telescope-kit-button-5.0.4.tgz#9383c01a7ddcd51b1cc0b8a8e0a6def88786022d"
+  integrity sha512-H/WD9iVbRWq9MXqG/6rJagZDYJ9metDd5LmLYx1SfmwsZwGxtEK1YlcuFV4EfYzBiIUNsV+OuSaVJ8W1lL057A==
+  dependencies:
+    "@bbc/telescope-kit-helpers" "^5.0.1"
+
+"@bbc/telescope-kit-helpers@^5.0.1":
   version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-base/-/telescope-kit-base-5.0.2.tgz#a19a8818af780f893e54f905cc919353b5736f7a"
-  integrity sha512-gkF7s3eUSO3mDfwbMmqF9pJptnkzJ/XXxvIhyP46wVMHzsyZxsrjQt0qkMo2MJC6YuRQ2CfoMohoZgfmUruoHQ==
+  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-helpers/-/telescope-kit-helpers-5.0.2.tgz#2090d16fcd85783cd10592972ee7b22ca52c9fa0"
+  integrity sha512-vS23sbq9Or/Z91YQ1U9v8WGSIPV9w9zHKmHJIfQXDhbHctMDupHFUFjMW9Nx5/nR7tJL+rwuXjQJ7UWz1nX34g==
+
+"@bbc/telescope-kit-helpers@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-helpers/-/telescope-kit-helpers-5.1.1.tgz#3d7c7b99b4c7c75e8f5ae6fdd15b4de19deda18d"
+  integrity sha512-ozyur78btrOHH0zR1Hm+Ess4WopiGJA8v/mMb0BXGMYyUIJHlZJSHynjBlSCdJjf/GEhjdVPOwywAVtCk0PREQ==
+
+"@bbc/telescope-kit-icons@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-icons/-/telescope-kit-icons-5.1.1.tgz#431f5944722ee17d94f88fa4f85db7904d8c82f5"
+  integrity sha512-+n58LYA+e5srXAMJpMe7HwnqaCR6NtMdw8+UBI+7/oaE2Q0vpoO71IPJ2pfQnZ10LH7zBDX7MU55BfsvdVyB7w==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
@@ -1361,7 +1383,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@16.9.11":
+"@types/react@*", "@types/react@^16.9.11":
   version "16.9.11"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
   integrity sha512-UBT4GZ3PokTXSWmdgC/GeCGEJXE5ofWyibCcecRLUVN2ZBpXQGVgQGtG2foS7CrTKFKlQVVswLvf7Js6XA/CVQ==

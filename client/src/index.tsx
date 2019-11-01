@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from 'react-router-dom';
+} from 'react-router-dom'; 
 
 import '@bbc/telescope-kit-base';
 import 'normalize.css/normalize.css';
@@ -13,7 +13,6 @@ import Home from './Components/Home';
 import Article from './Components/Article';
 import NotFound from './Components/404';
 import NoAccess from './Components/403';
-
 
 import * as serviceWorker from './serviceWorker';
 
