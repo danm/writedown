@@ -85,7 +85,7 @@ export const Container = styled.div`
     font-size: 32px;
     line-height: 40px;
     display: block;
-    max-width: 200px;
+    max-width: 250px;
   }
 
   @media (max-width: 767px) {
