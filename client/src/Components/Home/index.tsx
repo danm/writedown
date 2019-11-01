@@ -28,7 +28,7 @@ function removeHeaders(d: string): string | null {
 
 function buildCards(data: Subject) {
   return data.files.map((file) => (
-      <div className="col-shrink" key={file.index}>
+      <div className="col-card-link" key={file.index}>
         <a
           className="homepage-card-link"
           href={`/${sanitize(data.title)}/${sanitize(file.title)}`}

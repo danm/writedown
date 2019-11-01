@@ -40,12 +40,12 @@ export default function () {
       <Container>
         <Row>
           <div className="col-sm-3">
-            <h2>{fileClean.title}</h2>
             <Breadcrumbs
               site={data.title}
               file={fileClean.title}
               subject={subjectClean.title}
             />
+            <span className="sidebar-title">{fileClean.title}</span>
             <Sidebar file={fileClean} />
           </div>
           <div className="col-sm-7">

@@ -22,7 +22,7 @@ export const Row = styled.div`
       flex-shrink: 1;
       flex-basis: 0;
 
-      &.col-shrink{
+      &.col-card-link{
         flex-basis: 25%;
         flex-grow: 0;
         flex-shrink:0;
@@ -61,6 +61,18 @@ export const Container = styled.div`
   padding: 0 16px;
   margin: 0 auto;
   box-sizing: border-box;
+
+  .sidebar-title {
+    font-weight: bold;
+    color: ${black};
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.3px;
+    font-size: 32px;
+    line-height: 40px;
+    display: block;
+    max-width: 200px;
+  }
 
   @media (max-width: 767px) {
           width: 100%;
