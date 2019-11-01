@@ -32,7 +32,6 @@ export const NavButton = styled.div`
   height: ${({ text }: { text: string }) => (text.length <= 15 ? '65px' : text.length >= 30 ? '105px' : '85px')};
   background-color: #1f1c1f;
   position: relative;
-  box-sizing: border-box;
   padding-left: 26px;
 
   &.nav-button-next {

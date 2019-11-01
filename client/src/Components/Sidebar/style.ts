@@ -37,6 +37,9 @@ export const SidebarContent = styled.div`
     :hover {
       text-decoration: underline
       }
+    :focus {
+      outline: 4px solid ${complimentary}
+    }  
   }
 
   @media (max-width: 767px) {

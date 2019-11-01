@@ -34,6 +34,9 @@ export const BreadcrumbList = styled.ul`
     :hover {
       text-decoration: underline
       }
+    :focus {
+      outline: 4px solid ${complimentary};
+    }  
   }
 
   @media (max-width: 767px) {
