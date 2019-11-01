@@ -50,11 +50,21 @@ export default function () {
           </div>
           <div className="col-sm-7">
             <Page contents={fileClean.contents} />
+          </div>
+        </Row>
+        
+        <Row className="big-margins">
+          <div className="col-sm-3">
+            &nbsp;
+          </div>  
+          <div className="col-sm-3">
             <NavButton
               direction="previous"
               subject={subjectClean}
               file={fileClean}
             />
+          </div>
+          <div className="col-sm-3">
             <NavButton
               direction="next"
               subject={subjectClean}

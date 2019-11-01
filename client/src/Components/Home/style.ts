@@ -14,6 +14,10 @@ export const Row = styled.div`
     display: flex;
     justify-content: flex-start;
 
+    &.big-margins {
+      margin: 85px 0;
+    }
+
     /** cols */
     > div {
       margin-left: 16px;
@@ -28,8 +32,18 @@ export const Row = styled.div`
         flex-shrink:0;
       }
 
+      &.nav-button-container{
+        display: block;
+        width: 100%;
+        position: relative;
+      }
+
       :first-of-type {
         margin-left: 0;
+      }
+
+      .nav-button-wrapper-left {
+
       }
     }
 

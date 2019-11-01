@@ -16,10 +16,16 @@ export const PageContainer = styled.div`
 
   section {
     padding: 14px 0 !important;
-    width: 70%;
-
     font-size: 14px;
-    line-height: 22px;
+    line-height: 22px;  
+    
+    p {
+      width: 70%;
+      }
+
+    p img {
+      width: 130%;
+    }  
 
     a {
       color: ${black};
@@ -36,6 +42,13 @@ export const PageContainer = styled.div`
 
   }
 
+  .nav-button-container {
+    display: inline;
+  }
+
+  img {
+    max-width: 100%;
+  }
 
   @media (max-width: 767px) {
           width: 100%;
