@@ -1,14 +1,10 @@
 import styled from 'styled-components';
 import helpers from '@bbc/telescope-kit-helpers';
 import { downarrow } from '@bbc/telescope-kit-icons';
-import { ghostGrey, complimentary } from '@bbc/telescope-kit-helpers/lib/colours';
+
 const {
   white,
-  black,
-  charcoalGrey,
   slateGrey,
-  keyLineGrey,
-  primary,
 } = helpers.colours;
 
 export const Link = styled.a`
@@ -30,7 +26,11 @@ export const Arrow = styled.div`
 export const NavButton = styled.div`
   width: 195px;
   min-height: 105px;
-  height: ${({ text }: { text: string }) => (text.length <= 15 ? '65px' : text.length >= 30 ? '105px' : '85px')};
+  height: ${({ text }: { text: string }) => {
+    if (text.length <= 15) return '65px';
+    if (text.length >= 30) return '105px';
+    return '85px';
+  }};
   background-color: #1f1c1f;
   position: relative;
   padding-left: 26px;
@@ -75,23 +75,22 @@ export const NavButton = styled.div`
     width: 30px;
 
     div {
-      margin: ${(props) => (props.text.length <= 15
-    ? '25px 15px 0'
-    : props.text.length >= 30
-      ? '45px 15px 0'
-      : '35px 15px 0')};
+      margin: ${({ text }: { text: string }) => {
+    if (text.length <= 15) return '25px 15px 0';
+    if (text.length >= 30) return '45px 15px 0';
+    return '35px 15px 0';
+  }}
     }
 
     &.right {
       float: right;
 
-        div {
-          margin: ${(props) => (props.text.length <= 15
-      ? '25px 0 15px'
-      : props.text.length >= 30
-        ? '45px 0 15px'
-        : '35px 0 15px')};
-        }
+      div {
+        margin: ${({ text }: { text: string }) => {
+    if (text.length <= 15) return '25px 0 15px';
+    if (text.length >= 30) return '45px 0 15px';
+    return '35px 0 15px';
+  }}}
     }
   }
 

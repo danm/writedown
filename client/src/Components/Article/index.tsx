@@ -9,11 +9,6 @@ import Sidebar from '../Sidebar';
 import NoContent from '../204';
 
 import {
-  Masthead,
-  Blurb,
-  MainContent,
-  Heading,
-  SpacerBottom,
   Row,
   Container,
 } from '../Home/style';
@@ -35,7 +30,6 @@ export default function () {
   }
 
   return (
-
     <div>
       <Container>
         <Row>
@@ -52,11 +46,10 @@ export default function () {
             <Page contents={fileClean.contents} />
           </div>
         </Row>
-        
         <Row className="big-margins">
           <div className="col-sm-3">
             &nbsp;
-          </div>  
+          </div>
           <div className="col-sm-3">
             <NavButton
               direction="previous"

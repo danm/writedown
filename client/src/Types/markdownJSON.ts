@@ -1,6 +1,6 @@
 
 export interface NavigationButton {
-  // title of the button 
+  // title of the button
   title: string;
   // array position of the link subject
   dir: number;

@@ -1,13 +1,9 @@
 import styled from 'styled-components';
 import helpers from '@bbc/telescope-kit-helpers';
-import { ghostGrey, complimentary } from '@bbc/telescope-kit-helpers/lib/colours';
+
 const {
-  white,
   black,
-  charcoalGrey,
-  slateGrey,
-  keyLineGrey,
-  primary,
+  complimentary,
 } = helpers.colours;
 
 export const PageContainer = styled.div`
@@ -51,7 +47,6 @@ export const PageContainer = styled.div`
   }
 
   @media (max-width: 767px) {
-          width: 100%;
-        }
-      }
-`
+    width: 100%;
+  }
+`;

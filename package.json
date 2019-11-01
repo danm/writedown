@@ -24,5 +24,7 @@
     "@bbc/telescope-kit-helpers": "^5.0.2",
     "@bbc/telescope-kit-icons": "^5.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
 }

@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 import helpers from '@bbc/telescope-kit-helpers';
-import { ghostGrey, complimentary } from '@bbc/telescope-kit-helpers/lib/colours';
+
 const {
   white,
   black,
-  charcoalGrey,
   slateGrey,
-  keyLineGrey,
-  primary,
+  ghostGrey,
+  complimentary,
 } = helpers.colours;
 
 export const Row = styled.div`
@@ -66,8 +65,7 @@ export const Row = styled.div`
         margin-left: 0;
       }     
     }
-
-`
+`;
 
 export const Container = styled.div`
   width: 100%;
@@ -89,11 +87,10 @@ export const Container = styled.div`
   }
 
   @media (max-width: 767px) {
-          width: 100%;
-          display: block;
-        }
-      }
-`
+    width: 100%;
+    display: block;
+  }
+`;
 
 export const Masthead = styled.div`
   height: auto;

@@ -1,9 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Icon } from '@bbc/telescope-kit-icons';
-import Breadcrumbs from '../Breadcrumbs';
-import StyledLink from '../Button';
 import Button from '@bbc/telescope-kit-button';
+import Breadcrumbs from '../Breadcrumbs';
 
 import {
   Masthead,
@@ -28,12 +27,15 @@ function removeHeaders(d: string): string | null {
 
 function buildCards(data: Subject) {
   return data.files.map((file) => (
-      <div className="col-card-link" key={file.index}>
-        <a
-          className="homepage-card-link"
-          href={`/${sanitize(data.title)}/${sanitize(file.title)}`}
-        >{file.title}</a>
-      </div>
+    <div className="col-card-link" key={file.index}>
+      <a
+        className="homepage-card-link"
+        href={`/${sanitize(data.title)}/${sanitize(file.title)}`}
+      >
+        {file.title}
+
+      </a>
+    </div>
   ));
 }
 
@@ -76,22 +78,22 @@ export default function () {
       <Masthead>
         <Container>
           <Row>
-              <div className="col-sm-3 col-centre">
-                <h1>{ title || jsondata.title}</h1>
-              </div>
-              <div className="col-sm-7 col-centre">
-                <Blurb>{removeHeaders(jsondata.text)}</Blurb>
-              </div>
-              <div className="col-sm-2 col-centre">
-                <Button
-                  className="gel-button download-button"
-                  href="#"
-                  >
-                  <Icon aria-hidden="true" className="icon" icon="download" />
+            <div className="col-sm-3 col-centre">
+              <h1>{ title || jsondata.title}</h1>
+            </div>
+            <div className="col-sm-7 col-centre">
+              <Blurb>{removeHeaders(jsondata.text)}</Blurb>
+            </div>
+            <div className="col-sm-2 col-centre">
+              <Button
+                className="gel-button download-button"
+                href="#"
+              >
+                <Icon aria-hidden="true" className="icon" icon="download" />
                   Download the full guide
-                </Button>
-              </div>
-            </Row>
+              </Button>
+            </div>
+          </Row>
         </Container>
 
       </Masthead>
@@ -102,9 +104,9 @@ export default function () {
               site={jsondata.title}
               subject={title}
             />
-            ) }
-            {buildSections(jsondata)}
-            <SpacerBottom />
+          ) }
+          {buildSections(jsondata)}
+          <SpacerBottom />
         </Container>
       </MainContent>
     </div>

@@ -1,17 +1,12 @@
 import styled from 'styled-components';
 import helpers from '@bbc/telescope-kit-helpers';
-import { ghostGrey, complimentary } from '@bbc/telescope-kit-helpers/lib/colours';
+import { complimentary } from '@bbc/telescope-kit-helpers/lib/colours';
+
 const {
-  white,
   black,
-  charcoalGrey,
-  slateGrey,
-  keyLineGrey,
-  primary,
 } = helpers.colours;
 
 export const SidebarContent = styled.div`
-
   span {
     padding-top: 36px;
     display: block;
@@ -43,8 +38,7 @@ export const SidebarContent = styled.div`
   }
 
   @media (max-width: 767px) {
-          width: 100%;
-          display: block;
-        }
-      }
-`
+    width: 100%;
+    display: block;
+  }
+`;

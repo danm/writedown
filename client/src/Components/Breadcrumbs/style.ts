@@ -1,13 +1,9 @@
 import styled from 'styled-components';
 import helpers from '@bbc/telescope-kit-helpers';
-import { ghostGrey, complimentary } from '@bbc/telescope-kit-helpers/lib/colours';
+
 const {
-  white,
   black,
-  charcoalGrey,
-  slateGrey,
-  keyLineGrey,
-  primary,
+  complimentary,
 } = helpers.colours;
 
 export const BreadcrumbList = styled.ul`
@@ -40,8 +36,7 @@ export const BreadcrumbList = styled.ul`
   }
 
   @media (max-width: 767px) {
-          width: 100%;
-          display: block;
-        }
-      }
-`
+    width: 100%;
+    display: block;
+  }
+`;
