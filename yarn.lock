@@ -18,32 +18,15 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@bbc/telescope-kit-button@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-button/-/telescope-kit-button-5.0.2.tgz#8fca0e65520c47f20dc19e55e1439f65106ce028"
-  integrity sha512-hP57crnsY8g4Omr0MAR4kCSu35Fl+tXJevSAGZDNPgWiY/bp0Ou5DWpd2OZNDRHUVfuEk/5ra4ibOTkoZ/z19w==
-  dependencies:
-    "@bbc/telescope-kit-helpers" "^5.0.2"
-
-"@bbc/telescope-kit-helpers@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-helpers/-/telescope-kit-helpers-5.0.2.tgz#2090d16fcd85783cd10592972ee7b22ca52c9fa0"
-  integrity sha512-vS23sbq9Or/Z91YQ1U9v8WGSIPV9w9zHKmHJIfQXDhbHctMDupHFUFjMW9Nx5/nR7tJL+rwuXjQJ7UWz1nX34g==
-
-"@bbc/telescope-kit-icons@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@bbc/telescope-kit-icons/-/telescope-kit-icons-5.0.2.tgz#60d01e0ce5ac138486acb6a86412681e4aeb89be"
-  integrity sha512-tNGHRwwkfygzhZDTwTvkdzdxqhpCud6/ljXOrn9YlerjO9J0ubJYqVpV7MgiPcCV/IiLe3HyWTQzOrs/ArT46w==
-
 acorn-jsx@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.1.0.tgz#294adb71b57398b0680015f0a38c563ee1db5384"
   integrity sha512-tMUqwBWfLFbJbizRmEcWSLw6HnFzfdJs2sOJEOwwtVPMoH/0Ay+E703oZz78VSXZiiDcZrQ5XKjPIUQixhmgVw==
 
 acorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
-  integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
+  integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
 ajv@^6.10.0, ajv@^6.10.2:
   version "6.10.2"
